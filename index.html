@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div id="content">
+        <div id="nav">
+            <div id="shape">
+                <a href="javascript:">形状</a>
+                <img src="images/shape.gif" alt="">
+                <ul class="display">
+                    <li><a href="javascript:">曲线</a></li>
+                    <li><a href="javascript:">直线</a></li>
+                    <li><a href="javascript:">圆</a></li>
+                    <li><a href="javascript:">椭圆</a></li>
+                    <li><a href="javascript:">矩形</a></li>
+                </ul>
+            </div>
+            <div id="color">
+                <a href="javascript:">颜色</a>
+                <input type="color" style="width: 20px; height: 20px; margin:5px 0 20px 0">
+            </div>
+            <div id="pen">
+                <a href="javascript:">画笔</a>
+                <img src="images/pen.gif" alt="">
+                <ul class="display">
+                    <li><a href="javascript:"></a></li>
+                    <li><a href="javascript:"></a></li>
+                    <li><a href="javascript:"></a></li>
+                    <li><a href="javascript:"></a></li>
+                </ul>
+            </div>
+            <div id="eraser">
+                <a href="javascript:">橡皮擦</a>
+                <img src="images/eraser.gif" alt="">
+            </div>
+        </div>
+        <canvas id="canvas" width="800" height="500"></canvas>
+        <div id="header">
+            <div id="file">
+                <a href="javascript:">
+                    <dl>
+                        <dt><span>F</span>ile</dt>
+                        <dd class="display">open</dd>
+                        <dd class="display">save as</dd>
+                    </dl>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/controller.js"></script>
+    <script src="js/constructor.js"></script>
+    <script src="js/style.js"></script>
+</body>
+</html>
